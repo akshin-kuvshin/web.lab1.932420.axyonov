@@ -18,6 +18,7 @@
                 <li><a href="#about">Обо мне</a></li>
                 <li><a href="#skills">Навыки</a></li>
                 <li><a href="#visited">Посещённые вершины</a></li>
+                <li><a href="#feedback">Обратная связь</a></li>
             </ol>
         </nav>
     </header>
@@ -38,7 +39,7 @@
         <img src="me.jpg"
             alt="Фотография студента"
             width="300"
-            height="300"/>
+            height="300">
 
         <aside style="float: right; width: 300px; background-color: #f8c58a;">
             <h2>Любимое место</h2>
@@ -71,6 +72,34 @@
                 <li>Имантау (621);</li>
                 <li>Роза Пик (2320).</li>
             </ol>
+        </section>
+
+        <section id="feedback">
+            <h2 style="color: #d96b1f;">Обратная связь</h2>
+
+            <!-- feedback form -->
+            <form>
+                <p> <label>Имя:</label><br>
+                    <input type="text"
+                        placeholder="Введите ваше имя"
+                        style="width: 300px;"/>
+                </p>
+
+                <p> <label>Email:</label><br>
+                    <input type="email"
+                        placeholder="Введите ваш email"
+                        style="width: 300px;">
+                </p>
+
+                <p> <label>Сообщение:</label><br>
+                    <textarea placeholder="Введите ваше сообщение"
+                        rows="6"
+                        style="width: 300px;"></textarea>
+                </p>
+
+                <!-- fake button - not really sending your feedback anywhere -->
+                <button>Отправить</button>
+            </form>
         </section>
 
     </main>
